@@ -14,13 +14,26 @@
     <tbody>
         <tr>
             <td><h4>1</h4></td>
-            <td><h4><span class = "emoji">🔗</span><a href = "https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Transformer%20Models">Transformer Models</a></h4></td>
+            <td><h5><span class="emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Transformer%20Models">Transformer Models</a></h5></td>
             <td>
-              <ul>
-                <li><h4>Pipelines and Text Transformation</h4></li>
-                <li><h4>Transformer Architectures</h4></li>
-                <li><h4>Biases and Limitations</h4></li>
-              </ul>
+                <ul>
+                    <li><h5>Pipelines and Text Transformation</h5></li>
+                    <li><h5>Transformer Architectures</h5></li>
+                    <li><h5>Biases and Limitations</h5></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><h5>2</h5></td>
+            <td><h5><span class="emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Using%20Transformers">Day 02: Transformer Models and Tokenization</a></h5></td>
+            <td>
+                <ul>
+                    <li><h5>Behind the Pipeline</h5></li>
+                    <li><h5>Tokenizers</h5></li>
+                    <li><h5>Handling Multiple Sequences</h5></li>
+                    <li><h5>Models</h5></li>
+                    <li><h5>Putting it All Together</h5></li>
+                </ul>
             </td>
         </tr>
     </tbody>
@@ -41,5 +54,45 @@
 
 <h2>Chapter 4. A Note on Biases <span class="emoji">⚠️</span></h2>
 <p>Amidst the excitement, a crucial realization surfaced. Pretrained models, sourced from diverse internet data, inherently carried biases. An awareness of these biases became a key consideration, emphasizing the ethical use of these powerful tools. It's important to note that pretrained models may carry biases, necessitating careful consideration for their ethical use.</p>
+
+<hr>
+
+<h1><span class = "emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Using%20Transformers">Day 02: Transformer Models and Tokenization</a></h1>
+
+<h2>Chapter 1. Tokenization Pipeline</h2>
+<p>Learned about the components of the NLP tokenization pipeline and its importance in translating text into numerical data.</p>
+
+<h2>Chapter 2. Different Tokenization Techniques</h2>
+<table>
+    <tbody>
+        <tr>
+            <td><h4>Word-based Tokenization</h4></td>
+            <td>Explored word-based tokenization, where text is split into words to create a numerical representation for each word.</td>
+        </tr>
+        <tr>
+            <td><h4>Character-based Tokenization</h4></td>
+            <td>Introduced character-based tokenization as an alternative, which splits text into characters, resulting in a smaller vocabulary.</td>
+        </tr>
+        <tr>
+            <td><h4>Subword Tokenization</h4></td>
+            <td>Discussed subword tokenization algorithms, combining the benefits of both word-based and character-based approaches.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Chapter 3. Loading and Saving Tokenizers</h2>
+<p>Learned how to load and save tokenizers, crucial for maintaining consistency between training and inference.</p>
+
+<h2>Chapter 4. Encoding and Decoding</h2>
+<p>Explored the encoding process, translating text into numbers, and decoding, converting vocabulary indices back to a string.</p>
+
+<h2>Chapter 6. Handling Multiple Sequences</h2>
+<p>Addressed challenges related to handling multiple sequences, different sequence lengths, and introduced batching, padding, and attention masks.</p>
+
+<h2>Chapter 7. Putting it All Together</h2>
+<p>Understood how the 🤗 Transformers API simplifies the entire process, from tokenization to model input, handling various scenarios.</p>
+
+<h2>Conclusion</h2>
+<p>Recapped the key takeaways, enabling the navigation of 🤗 Transformers documentation with a familiar understanding of concepts.</p>
 
 <hr>
