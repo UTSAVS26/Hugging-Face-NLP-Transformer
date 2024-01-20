@@ -14,7 +14,7 @@
     <tbody>
         <tr>
             <td><h4>1</h4></td>
-            <td><h5><span class="emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Transformer%20Models">Transformer Models</a></h5></td>
+            <td><h5><span class="emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Transformer%20Models">Day 01: Transformer Models</a></h5></td>
             <td>
                 <ul>
                     <li><h5>Pipelines and Text Transformation</h5></li>
@@ -33,6 +33,17 @@
                     <li><h5>Handling Multiple Sequences</h5></li>
                     <li><h5>Models</h5></li>
                     <li><h5>Putting it All Together</h5></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><h5>3</h5></td>
+            <td><h5><span class = "emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Fine-Tuning%20a%20Pretrained%20Model">Day 03: Fine-Tuning a Pretrained Model</h5></td>
+            <td>
+                <ul>
+                    <li><h5>Processing the Data</h5></li>
+                    <li><h5>TFIne Tuning a Model with the Trainer API</h5></li>
+                    <li><h5>A Full Training</h5></li>
                 </ul>
             </td>
         </tr>
@@ -96,3 +107,53 @@
 <p>Recapped the key takeaways, enabling the navigation of 🤗 Transformers documentation with a familiar understanding of concepts.</p>
 
 <hr>
+
+<h1><span class = "emoji">🔗</span><a href="https://github.com/UTSAVS26/Hugging-Face-NLP-Transformer/tree/main/Fine-Tuning%20a%20Pretrained%20Model">Day 03: Fine-Tuning a Pretrained Model</h1>
+
+<h2>Overview</h2>
+<ul>
+  <li>Introduction to fine-tuning for adapting pretrained models.</li>
+  <li>Leveraging pretrained knowledge for downstream tasks.</li>
+</ul>
+
+<h2>Chapter 1: Data Preprocessing</h2>
+<ul>
+  <li>Loading GLUE MRPC dataset for fine-tuning.</li>
+  <li>Selection of pretrained model checkpoint.</li>
+</ul>
+
+<h2>Chapter 2: Tokenization and Dataset Preparation</h2>
+<ul>
+  <li>Tokenization using AutoTokenizer for compatibility.</li>
+  <li>DataCollatorWithPadding implementation for handling input length variations.</li>
+</ul>
+
+<h2>Chapter 3: Training Configuration</h2>
+<ul>
+  <li>Utilization of TrainingArguments for hyperparameter settings.</li>
+  <li>Specifying the directory for saving the trained model.</li>
+</ul>
+
+<h2>Chapter 4: Model Configuration</h2>
+<ul>
+  <li>Use of AutoModelForSequenceClassification for defining the model architecture.</li>
+  <li>Warnings about model head modification and implications for sequence classification.</li>
+</ul>
+
+<h2>Chapter 5: Trainer Configuration</h2>
+<ul>
+  <li>Configuration of the Trainer class, incorporating model, training arguments, datasets, and collators.</li>
+  <li>Emphasis on GPU usage due to computational demands.</li>
+</ul>
+
+<h2>Chapter 6: Evaluation</h2>
+<ul>
+  <li>Importance of evaluating the model's performance during training.</li>
+  <li>Introduction to compute_metrics using the 🤗 Evaluate library for metrics calculation.</li>
+</ul>
+
+<h2>Chapter 7: Accelerated Training with 🤗 Accelerate</h2>
+<ul>
+  <li>Overview of 🤗 Accelerate for simplifying distributed training.</li>
+  <li>Adjustments to the training loop and optimizer for harnessing 🤗 Accelerate's capabilities.</li>
+</ul>
